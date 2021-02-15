@@ -1,0 +1,166 @@
+
+
+#welcome-section {
+  font-family: 'Gruppo', cursive;
+  display: flex;
+  justify-content: center;
+    text-align:right;
+/*    height:100vh;*/
+}
+
+img {
+  max-width: 100%;
+}
+
+.imgdiv {
+  width: 300px;
+  height: auto;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+  font-family: 'Gruppo', cursive;
+    word-wrap: break-word;
+}
+h3 {
+  font-size: 1.5em;
+  font-family: 'Gruppo', cursive;
+position: relative;
+    top: -20px;
+}
+p {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  font-size: 2em;
+}
+
+body{
+  font-family: font-family: 'Montserrat', sans-serif;
+}
+
+#Profilehead {
+  margin-top: -30px;
+}
+
+#container {
+  max-width: 98%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  grid-template-rows: repeat(3, minmax(400px, 400px));
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas:
+    "aboutme projectintro project1"
+    "project2 project3 project4"
+    "project5 project6 project7";
+}
+
+
+.grid_element {
+   border: solid 5px steelBlue;
+  margin: 0 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  height: 350px;
+    overflow:hidden;
+
+}
+
+#AboutMe {
+  grid-area: aboutme;
+}
+
+#projectintro {
+  grid-area: projectintro;
+}
+
+#projects {
+    position:relative;
+    top: 0vh;
+    
+}
+
+
+#project1 {
+ grid-area: project1;  
+}
+#project2 {
+ grid-area: project2;  
+}
+#project3 {
+ grid-area: project3;  
+}
+#project4 {
+ grid-area: project4;  
+}
+
+#navbar {
+    position: fixed;
+    top:10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+        z-index: 2;
+}
+
+
+.navlinks {
+    display: inline-block;
+    text-align: center;
+    border: solid 2px black;
+    background-color: white;
+    border-radius: 5px;
+    color: steelblue;
+    font-size: 1.5em;
+    padding:5px;
+    margin: 10px;
+    width: 100px;
+    text-decoration: none;  
+
+}
+
+#contact {
+    margin: 20px;
+    
+}
+
+.contact_heading {
+    margin-bottom: -10px;
+}
+
+.contactlink {
+    font-size: 1em;
+}
+
+@media screen only and (min-width: 800px) {
+    
+    
+}
+    
+    @media only screen and (min-width: 800px) {
+   h1 {
+  font-size: 5em;
+}
+        
+        h2 {
+  font-size: 3em;
+  font-family: 'Gruppo', cursive;
+    word-wrap: break-word;
+}    
+  h3 {
+  font-size: 2em;
+  font-family: 'Gruppo', cursive;
+position: relative;
+    top: -20px;
+}
+  }
+
+.project-tile{}
+
